@@ -1,0 +1,67 @@
+@font-face {
+  font-family: Myfont;
+  src: url(Myfont.otf);
+}
+@keyframes twinkling {
+  /*透明度由0到1*/
+  0% {
+    opacity: 0; /*透明度为0*/
+  }
+  100% {
+    opacity: 1; /*透明度为1*/
+  }
+}
+body {
+  background-color: #f5cf25;
+}
+#header {
+  width: 490px;
+  height: 90px;
+  line-height: 70px;
+  color: white;
+  font-size: 30mm;
+  font-family: Myfont;
+  font-weight: 600;
+}
+#header span {
+  float: right;
+}
+#middle {
+  text-align: center;
+  color: white;
+  font-size: 50mm;
+  font-weight: 900;
+  font-family: Myfont;
+  margin: 5% auto 7% auto;
+}
+
+#start {
+  text-align: center;
+  color: #ffffff;
+  font-size: 30mm;
+  font-family: Myfont;
+  font-weight: 600;
+  animation: twinkling 2.5s infinite ease-in-out;
+  margin-top: -10%;
+}
+#main {
+  width: 100%;
+  height: 100%;
+  margin: 2% auto 5% auto;
+  position: fixed;
+}
+#footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  line-height: 10px;
+  text-align: center;
+  color: white;
+  font-size: 15mm;
+  font-weight: 600;
+  font-family: Myfont;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+}

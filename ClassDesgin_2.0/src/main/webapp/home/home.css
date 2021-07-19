@@ -1,0 +1,437 @@
+#banner {
+  width: 776px;
+  height: 360px;
+  float: left;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  margin: 10px auto 0 14px;
+}
+
+.pic img {
+  width: 776px;
+  height: 360px;
+}
+
+.left {
+  height: 360px;
+  width: 250px;
+  float: left;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background-color: white;
+  margin-left: 110px;
+  margin-top: 10px;
+}
+
+.pos {
+  margin-top: 10%;
+}
+
+.left button {
+  width: 230px;
+  font-size: 15px;
+  background-color: white;
+  border: 0px;
+  text-align: left;
+  margin-left: 10px;
+  height: 27px;
+}
+
+.left button:focus{
+  outline: 0;
+}
+
+.left span {
+  font-size: smaller;
+  color: gray;
+  margin-left: 5%;
+}
+
+.right {
+  height: 360px;
+  width: 250px;
+  float: right;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background-color: white;
+  margin-right: 100px;
+  margin-top: 10px;
+}
+
+.right p {
+  text-align: center;
+}
+
+.right p:first-of-type {
+  margin-top: 40%;
+}
+
+.tips {
+  font-size: small;
+  color: gray;
+}
+
+.right button {
+  background-color: #f1ca17;
+  color: white;
+  height: 30px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer; /*光标呈现为指示链接的指针（一只手）*/
+  width: 80%;
+}
+
+.right button:hover {
+  opacity: 0.8; /*设置 div 元素的不透明级别*/
+}
+
+.right button:focus {
+  outline: 0;
+}
+
+.show{
+  margin-top: 30%;
+  width: 100%;
+  height: 300px;
+  text-align: center;
+}
+
+.show p{
+ font-size: large;
+  margin-left: -76%;
+  color: gray;
+}
+
+.Course{
+  width: 150px;
+  height: 180px;
+  display: inline-block;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.Course input[type="text"]{
+  border: 0px;
+  background-color: white;
+  width: 130px;
+}
+
+.Course input[type="text"]:first-of-type{
+  margin-top: 10px;
+  font-size: small;
+}
+
+.Course input[type="text"]:nth-of-type(2){
+  font-size:smaller;
+  color: gray;
+}
+
+.Course input[type="submit"] {
+  width: 150px;
+  height: 180px;
+  background-color: transparent;
+  border: 0px;
+  border-radius: 5px;
+  position: relative;
+  top: -153px;
+}
+
+.Course input[type="submit"]:hover{
+  box-shadow:0 0 5px #ccc;
+  border-color:#fff;
+  background:transparent;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.Course input[type="submit"]:focus{
+  outline: 0;
+}
+
+.showImage{
+  width: 150px;
+  height: 100px;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.page{
+  width: 300px;
+  height: 150px;
+  display: inline-block;
+  position: relative;
+  top: -40px
+}
+
+.page form{
+  display: inline-block;
+}
+
+.page form input{
+  background-color: white;
+  border-color: rgb(240,240,240);
+  height: 30px;
+  font-size: smaller;
+}
+
+.page >input{
+  width: 20px;
+  height: 24px;
+  text-align: center;
+  background-color: white;
+  border-color:rgb(240,240,240);
+}
+
+.modal input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* 取消按钮的其他样式 */
+.cancelbtn,.quit{
+  width: 80px;
+  height: 40px;
+  background-color: #f44336;
+  border-radius: 5px;
+  border-top: 2px solid gray;
+  border-left:  2px solid gray;
+  border-right:  2px solid black;
+  border-bottom:  2px solid black;
+}
+
+.cancelbtn{
+  margin-top: -10px;
+  float: left;
+}
+
+.cancelbtn:focus,.quit:focus,.join:focus{
+  outline: none;
+  border-top: 2px solid black;
+  border-left:  2px solid black;
+  border-right:  2px solid gray;
+  border-bottom:  2px solid gray;
+}
+/* 将图像居中 */
+.imgcontainer {
+  text-align: center;
+  position: relative;
+}
+
+/* 定位关闭按钮 */
+.close {
+  position: absolute; /*生成绝对定位的元素，相对于 static 定位以外的第一个父元素进行定位。*/
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+/* 光标移动到关闭按钮 */
+.close:hover,
+.close:focus {
+  color: red;
+  /*光标呈现为指示链接的指针（一只手）*/
+  cursor: pointer;
+}
+
+.container {
+  padding: 16px;
+  padding-bottom: 50px;
+}
+
+.container input[type="text"]:nth-of-type(1){
+  background-color: white;
+  border: 0px;
+  text-align: right;
+  font-size: large;
+  color: black;
+  width: 60%;
+  float: left;
+  padding-right: 5px;
+}
+
+.container input[type="text"]:nth-of-type(2){
+  background-color: white;
+  border: 0px;
+  width: 40%;
+  text-align: left;
+  padding-left: 0px;
+  float: right;
+  color: gray;
+  font-size: 5px;
+  padding-top: 16px;
+}
+
+.container input[type="text"]:nth-of-type(3){
+  margin-top: -15px;
+  height: 200px;
+  font-size: 5px;
+  padding-left: 10px;
+  color: black;
+}
+
+.container input[type="text"]:nth-of-type(4){
+  background-color: white;
+  border: 0px;
+  text-align: left;
+  padding-left: 5px;
+  float: left;
+  color: gray;
+  font-size: 5px;
+  width: 50%;
+  margin-top: -15px;
+}
+
+.container input[type="text"]:nth-of-type(5){
+  background-color: white;
+  border: 0px;
+  text-align: right;
+  float: right;
+  color: gray;
+  font-size: 5px;
+  width: 50%;
+  margin-top: -15px;
+  padding-right: 5px;
+}
+
+.join,.start{
+  border-top: 2px solid gray;
+  border-left:  2px solid gray;
+  border-right:  2px solid black;
+  border-bottom:  2px solid black;
+}
+
+.join,.start{
+  width: 80px;height:40px;
+  background-color: green;
+  border-radius: 5px;
+  font-size: smaller;
+  color: white;
+  text-align: center;
+}
+
+.join{
+  margin-top: -10px;
+  float: right;
+}
+
+#remark{
+  width: 80%;
+  height: 30px;
+  float: left;
+}
+
+#remark input{
+  margin-left: 20px;
+}
+
+#btn{
+  margin-top: -5px;
+  height: 35px;
+  width: 80px;
+  border-radius: 10px;
+  float: right;
+  font-size: smaller;
+  padding-top: 0px;
+  background-color: white;
+  color: darkgreen;
+  border: 0px;
+  text-align: center;
+}
+
+#btn:focus{
+  outline: none;
+}
+
+.start{
+  margin-top: 1px;
+  float: right;
+}
+
+.quit{
+  margin-top: 1px;
+  float: right;
+}
+
+/* 登陆弹框模型 */
+.modal {
+  display: none; /* 默认隐藏模型 */
+  position: fixed; /* 生成绝对定位的元素，相对于浏览器窗口进行定位。 */
+  /* z-index、left、top共同控制模型在所有内容的上方 */
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* 如果需要，启用滚动条 */
+  background-color: rgb(0,0,0); /* 回退颜色 */
+  background-color: rgba(0,0,0,0.4); /* 黑色 */
+  padding-top: 60px;
+}
+
+/* 模型内容 */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 30%; /* Could be more or less, depending on screen size */
+}
+
+/* 添加缩放动画 */
+.animate {
+  -webkit-animation: animatezoom 0.6s; /*兼容-webkit-引擎浏览器*/
+  -moz-animation: animatezoom 0.6s; /*兼容-moz-引擎浏览器*/
+  -o-animation: animatezoom 0.6s; /*兼容-o-引擎浏览器*/
+  animation: animatezoom 0.6s
+}
+
+/*
+1. transform:scale(x,y)
+x表示元素沿着水平方向（X轴）缩放的倍数，y表示元素沿着垂直方向（Y轴）缩放的倍数。
+注意，Y是一个可选参数，如果没有设置Y值，则表示X、Y两个方向的缩放倍数是一样的（同时放大相同倍数）。
+2. 关键词 "from" 和 "to"，等同于 0% 和 100%。
+0% 是动画的开始，100% 是动画的完成。
+*/
+
+/*创建动画animatezoom,把它绑定到 animate 选择器*/
+@keyframes animatezoom {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+}
+
+/* 设置动画兼容-webkit-引擎浏览器 Firefox */
+@-webkit-keyframes animatezoom {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+}
+
+/*设置动画兼容-moz-引擎浏览器 Safari and Chrome*/
+@-moz-keyframes animatezoom {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+}
+
+/*设置动画兼容-o-引擎浏览器 Opera*/
+@-o-keyframes animatezoom {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+}
+
+/*
+@media 可以针对不同的屏幕尺寸设置不同的样式，特别是如果你需要设置设计响应式的页面，@media 是非常有用的。
+这里，如果文档宽度小于 300 像素则操作修改，在额外的小屏幕上更改span和cancel按钮的样式 */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}

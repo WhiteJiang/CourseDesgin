@@ -1,0 +1,169 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 宽屏输入字段 */
+input[type='text'],
+input[type='password'] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* 为所有按钮设置样式 */
+canvas {
+  width: auto;
+  height: 43px;
+  margin-top: 1%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button {
+  background-color: #f1ca17;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer; /*光标呈现为指示链接的指针（一只手）*/
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8; /*设置 div 元素的不透明级别*/
+}
+
+#register {
+  display: none;
+}
+
+.register_button {
+  margin-top: 5%;
+}
+
+.sidebar {
+  border-bottom: 1px solid #888;
+  height: 50px;
+  line-height: 40px;
+}
+
+#cloud {
+  margin-top: 3%;
+  width: 900px;
+  height: 600px;
+  float: left;
+}
+
+#vc {
+  height: 43px;
+  width: 375px;
+  position: relative;
+  top: -18px;
+}
+
+ul li {
+  list-style-type: none;
+  display: block;
+  height: 50px;
+  font-size: 16px;
+  color: gray;
+}
+#main {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+#tab1 {
+  float: left;
+  margin-left: 35px;
+  cursor: pointer;
+}
+
+#tab2 {
+  float: right;
+  margin-right: 80px;
+  cursor: pointer;
+}
+/* 取消按钮的其他样式 */
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(245, 245, 245);
+}
+
+.header {
+  height: 60px;
+  width: 100%;
+  line-height: 55px;
+  background: #ffffff;
+  border-bottom: 1px solid rgb(245, 245, 245);
+}
+
+.header img {
+  width: 200px;
+  height: 46px;
+  margin-left: 3%;
+  margin-top: 6px;
+}
+
+.header nav {
+  text-align: right;
+  margin-top: -75px;
+  margin-right: 40px;
+  letter-spacing: 0.5px;
+}
+
+.header nav a {
+  color: #000;
+  text-decoration: none;
+  font-size: small;
+}
+
+.header nav a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  line-height: 50px;
+  border-top: 1px solid #d6dfea;
+  text-align: center;
+  background-color: #ffffff;
+  letter-spacing: 0.5px;
+}
+
+.footer a {
+  color: #1d5494;
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  padding: 16px;
+}
+/* 模型内容 */
+.modal-content {
+  background-color: #fefefe;
+  float: right;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 500px; /* Could be more or less, depending on screen size */
+  margin-right: 30px;
+}
+
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}

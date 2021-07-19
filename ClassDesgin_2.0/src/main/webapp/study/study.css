@@ -1,0 +1,96 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(250, 250, 250);
+}
+
+.header {
+    height: 60px;
+    width: 100%;
+    line-height: 55px;
+    background: #ffffff;
+    border-bottom: 1px solid rgb(245, 245, 245);
+}
+
+.header img {
+    width: 200px;
+    height: 58px;
+    margin-left: 3%;
+}
+
+.header nav {
+    text-align: right;
+    margin-top: -60px;
+    margin-right: 40px;
+    letter-spacing: 0.5px;
+}
+
+.header nav a {
+    color: #000;
+    text-decoration: none;
+    font-size: small;
+}
+
+.header nav a:hover {
+    text-decoration: underline;
+}
+
+.video{
+    width: 70%;
+    height: 70%;
+    float: left;
+}
+
+.video video{
+    width: 70%;
+    height: 70%;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+.video video:focus{
+    outline: none;
+}
+
+.video button{
+    color: #50D58A;
+    border-color: #50D58A;
+    background-color: white;
+    width: 80px;
+    height: 40px;
+}
+
+.video button:focus{
+    outline: none;
+}
+
+.chapter{
+    background-color: white;
+    position: fixed;
+    top: 80px;
+    right: 20px;
+    height: 70%;
+    width: 20%;
+    padding-top: 20px;
+    border-radius: 10px;
+    float: right;
+}
+
+.chapter input[type="submit"]{
+    font-size: large;
+    background-color: white;
+    border: 0px;
+    color: gray;
+    padding-left: 20px;
+    height: 30px;
+    width: 100%;
+    text-align: left;
+}
+
+.chapter input[type="submit"]:hover{
+    background-color: #bbbbbb;
+}
+
+.chapter input[type="submit"]:focus{
+    outline: none;
+}
